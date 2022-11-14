@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Array-Loop</h1>
+
+    <div id="sort"></div>
+    <script>
+
+        let Array = [2, 3, 4, 2, 4, 2, 4, 5, 46, 4, 23, 4, 6, 46, 64, 56, 46];
+
+        // for (let a = 0; a < Array.length; a++);
+        // for (let (a,b) => a-b);
+        // console.log("unsorted array , length:", Array.length);
+
+
+
+
+        console.log("unsorted array , length:", Array);
+        // document.querySelector("#sort").innerHTML = Array;
+        
+        
+
+        Array.sort((a,b) => a-b);
+    
+        console.log("sorted array in ascending order", Array);
+        
+
+        Array.sort((a,b) => b-a);
+        console.log("sorted array in descending order", Array);
+
+        // document.querySelector("#sort").innerHTML = Array[0]
+        // document.querySelector("#sort").innerHTML = Array[1]
+        // document.querySelector("#sort").innerHTML = Array[2]
+        // document.querySelector("#sort").innerHTML = Array[3]
+        // document.querySelector("#sort").innerHTML = Array[4]
+        // document.querySelector("#sort").innerHTML = Array[5]
+        // document.querySelector("#sort").innerHTML = Array[6]
+        // document.querySelector("#sort").innerHTML = Array[7]
+
+        // for (let i = 0; i < Array.length; i++) {
+            // console.log(i);
+            // document.querySelector("#sort").innerHTML = Array[i]
+            // document.querySelector("#sort").innerHTML = `<br/>`
+        // }
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
